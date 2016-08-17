@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParametersandDataprovider]">
+  <parameter name="myName" value="parameter value"/>
+  <test name="Dataprovider(failed)">
+    <classes>
+      <class name="com.winmobtext.dataprovider.Dataprovider">
+        <methods>
+          <include name="testPrimeNumberChecker"/>
+        </methods>
+      </class> <!-- com.winmobtext.dataprovider.Dataprovider -->
+    </classes>
+  </test> <!-- Dataprovider(failed) -->
+</suite> <!-- Failed suite [ParametersandDataprovider] -->

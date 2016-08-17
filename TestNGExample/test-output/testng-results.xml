@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParametersandDataprovider" duration-ms="133" started-at="2016-08-15T12:46:54Z" finished-at="2016-08-15T12:46:54Z">
+    <groups>
+    </groups>
+    <test name="Parameter" duration-ms="49" started-at="2016-08-15T12:46:54Z" finished-at="2016-08-15T12:46:54Z">
+      <class name="com.winmobtext.dataprovider.Parameter">
+        <test-method status="PASS" signature="parameterTest1(java.lang.String)[pri:0, instance:com.winmobtext.dataprovider.Parameter@3a82f6ef]" name="parameterTest1" duration-ms="12" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parameter value]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest1 -->
+        <test-method status="PASS" signature="parameterTest2(java.lang.String)[pri:0, instance:com.winmobtext.dataprovider.Parameter@3a82f6ef]" name="parameterTest2" duration-ms="2" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parameter value]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest2 -->
+        <test-method status="PASS" signature="parameterTest3(java.lang.String)[pri:0, instance:com.winmobtext.dataprovider.Parameter@3a82f6ef]" name="parameterTest3" duration-ms="8" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[parameter value]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- parameterTest3 -->
+      </class> <!-- com.winmobtext.dataprovider.Parameter -->
+    </test> <!-- Parameter -->
+    <test name="Dataprovider" duration-ms="43" started-at="2016-08-15T12:46:54Z" finished-at="2016-08-15T12:46:54Z">
+      <class name="com.winmobtext.dataprovider.Dataprovider">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="initialize" is-config="true" duration-ms="1" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testPrimeNumberChecker(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="testPrimeNumberChecker" duration-ms="3" started-at="2016-08-15T13:46:54Z" data-provider="test1" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberChecker -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="initialize" is-config="true" duration-ms="0" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testPrimeNumberChecker(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="testPrimeNumberChecker" duration-ms="1" started-at="2016-08-15T13:46:54Z" data-provider="test1" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberChecker -->
+        <test-method status="PASS" signature="testPrimeNumberChecker(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="testPrimeNumberChecker" duration-ms="2" started-at="2016-08-15T13:46:54Z" data-provider="test1" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberChecker -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="initialize" is-config="true" duration-ms="0" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testPrimeNumberChecker(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="testPrimeNumberChecker" duration-ms="2" started-at="2016-08-15T13:46:54Z" data-provider="test1" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberChecker -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="initialize" is-config="true" duration-ms="0" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="initialize" is-config="true" duration-ms="0" started-at="2016-08-15T13:46:54Z" finished-at="2016-08-15T13:46:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="testPrimeNumberChecker(java.lang.Integer, java.lang.Boolean)[pri:0, instance:com.winmobtext.dataprovider.Dataprovider@4678c730]" name="testPrimeNumberChecker" duration-ms="2" started-at="2016-08-15T13:46:54Z" data-provider="test1" finished-at="2016-08-15T13:46:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPrimeNumberChecker -->
+      </class> <!-- com.winmobtext.dataprovider.Dataprovider -->
+    </test> <!-- Dataprovider -->
+  </suite> <!-- ParametersandDataprovider -->
+</testng-results>

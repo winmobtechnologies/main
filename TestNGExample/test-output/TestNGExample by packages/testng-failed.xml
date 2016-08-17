@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestNGExample by packages]">
+  <test name="com.winmobtext.dataprovider(failed)">
+    <classes>
+      <class name="com.winmobtext.dataprovider.Parameter">
+        <methods>
+          <include name="parameterTest"/>
+        </methods>
+      </class> <!-- com.winmobtext.dataprovider.Parameter -->
+    </classes>
+  </test> <!-- com.winmobtext.dataprovider(failed) -->
+</suite> <!-- Failed suite [TestNGExample by packages] -->
