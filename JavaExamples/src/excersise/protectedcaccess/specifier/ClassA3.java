@@ -7,6 +7,8 @@ public class ClassA3 {
 	protected void msg()
 	{
 	 System.out.println("Huwai");
+	 
+	 System.out.println("complete");
 	}  
 
 }
