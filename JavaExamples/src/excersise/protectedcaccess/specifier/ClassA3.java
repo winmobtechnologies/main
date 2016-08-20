@@ -8,7 +8,7 @@ public class ClassA3 {
 	{
 	 System.out.println("Huwai");
 	 
-	 System.out.println("complete");
+	
 	}  
 
 }
